@@ -1,4 +1,4 @@
-nclude <cmath>
+#include <cmath>
 #include <cstdio>
 #include <vector>
 #include <iostream>
@@ -17,7 +17,7 @@ int main() {
     while(num_buildings > 0){
     	int height; 
 	cin>>height;
-	
+	buildings.push(height); 	
     }
     return 0;
 }
