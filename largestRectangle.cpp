@@ -17,8 +17,8 @@ int main() {
     int num_buildings;
     cin>>num_buildings;
     while(num_buildings > 0){
-    	int height; 
-	cin>>height;
+    	int height1; 
+	cin>>height1;
 	buildings.push(height); 	
     }
     return 0;
