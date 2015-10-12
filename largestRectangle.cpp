@@ -6,6 +6,8 @@
 #include <stack>
 using namespace std;
 
+
+//Work on it later 
 int calculate_area(stack<int>* buildings){
     
 }
