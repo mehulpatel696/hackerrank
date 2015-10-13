@@ -1,7 +1,7 @@
 // The following definitions of Tree and Node are provided.
 #include <iostream>
 using namespace std;
-
+//Give Node and Tree defs
 struct Node {
     int val;
     Node *left, *mid, *right;
