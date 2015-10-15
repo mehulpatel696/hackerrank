@@ -45,24 +45,14 @@ void Tree:remove(int val){
 	
     if(root == nullptr) return;
     Node* current = root; 
-    node* prev = nullptr;
+    Node* prev = nullptr;
     while(current != nullptr && current->val != val ){
     	prev = current;
 	if(current->left != nullptr) if(current->val > current->left->val) current = current->right;
         else if (current->right != nullptr) if(current->val < current->left->val) current = current -> left; 
     }
     
-    function()
-
-}
-
-Node* findLeftMostNode(Node* ptr){
-    while(ptr != nullptr){
-    	
-
-    }
-}
-
+}    
 void Tree::insert(int val) {
 
   // Check if the tree is empty
