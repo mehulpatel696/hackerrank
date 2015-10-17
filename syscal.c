@@ -3,8 +3,8 @@
 #include "stdlib.h"
 #include "time.h"
 
-//#define
-#ifndef NOSYSCALL
+#define NOSYSCALL
+#ifdef NOSYSCALL
 int getPid() {return 55;}
 #endif 
  int main( int argc, char * argv[] ) {
