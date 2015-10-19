@@ -3,11 +3,11 @@
 #include "stdlib.h"
 #include "time.h"
 
-#define NOSYSCALL
-#ifdef NOSYSCALL
+//#define NOSYSCALL
+#ifndef NOSYSCALL
 int getPid() {return 55;}
 #endif 
- int main( int argc, char * argv[] ) {
+int main( int argc, char * argv[] ) {
  int i, a, limit = atoi(argv[1]);
  clock_t start, end;
  start = clock();

@@ -5,7 +5,6 @@
 #include <algorithm>
 using namespace std;
 
-//Hacker Rank Maximum Mod Sum Problem 
 
 int findMaxSum(vector<int> numbers, int  M){ 
     
