@@ -3,7 +3,6 @@
 using namespace std;
 
 int maxSlice(vector<int>& A){
-    if(A.size() < 2) return -1;
     int currentSum = 0;
     int maxSum = 0;
     for(int i = 0; i < A.size(); i++){

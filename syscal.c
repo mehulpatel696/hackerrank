@@ -3,7 +3,6 @@
 #include "stdlib.h"
 #include "time.h"
 
-//#define NOSYSCALL
 #ifndef NOSYSCALL
 int getPid() {return 55;}
 #endif 
