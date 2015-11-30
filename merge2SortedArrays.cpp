@@ -17,7 +17,7 @@ void merge(vector<int>& a, vector<int>& b){
  int j = a.size() -  b.size() - 1;
  int i;
  
- for( i = b.size() - 1; i >= 0 & j >= 0 ; i--){
+ for( i = b.size() - 1; i >= 0 && j >= 0 ; i--){
    if(b[i] > a[j]) a[last_index] = b[i];
    else if(b[i] == a[j]){
      a[last_index] = a[j];
